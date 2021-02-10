@@ -1,0 +1,197 @@
+body {
+    background-color: darkslategrey;
+    width: 1000px;
+    margin: 30px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form,
+.customerSales {
+    border: 2px solid white;
+    padding: 10px;
+    width: 900px;
+    margin: 20px;
+    background-color: wheat;
+    color: brown;
+    font-size: 22px;
+    display: inline-block;
+}
+
+header {
+    color: gold;
+    font-size: bold;
+    text-align: right;
+    margin-right: 80px;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+}
+
+h1:before {
+    padding: 5px;
+    content: 'EveryDay';
+    color: gold;
+    font-size: 32px;
+}
+
+h1:after {
+    padding: 5px;
+    content: 'Sales';
+    color: magenta;
+    font-size: 32px;
+}
+
+
+/* For form heading i.e login page*/
+
+h2 {
+    background-color: black;
+    text-align: center;
+    width: 900px;
+}
+
+#formErrors {
+    /*  for Errors*/
+    text-align: center;
+    color: crimson;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: cursive;
+}
+
+label {
+    /*  for labels*/
+    color: brown;
+    font-size: 22px;
+    width: 300px;
+    display: inline-block;
+}
+
+#labelOfColors {
+    padding: 10px;
+    color: white;
+    background: black;
+    width: 200px;
+    font: 1em sans-serif;
+    display: block;
+    text-shadow: 2px 1px;
+}
+
+#monthlabelDetails {
+    /*give month format*/
+    color: brown;
+    margin-left: 300px;
+    width: 570px;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.formInput {
+    /*  for input fields */
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 5px 10px;
+}
+
+select.formInput {
+    /*  for Drop down province fields */
+    height: 40px;
+    margin-bottom: 5px;
+    width: 420px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.formInputHalf {
+    /* for Credit Month and year */
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 5px 10px;
+}
+
+.submitbtn {
+    /* Button design */
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: deepskyblue;
+    padding: 10px 40px 10px;
+    margin: 2% 0 5% 38%;
+    border-radius: 5%;
+    box-shadow: 0 5px darkslategray;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.submitbtn:active {
+    /* Button animation on click */
+    transform: translateY(5px);
+}
+
+.submitbtn:hover {
+    /*change color on hover */
+    background-color: dodgerblue;
+}
+
+
+/* navigation style*/
+
+ul {
+    background: wheat;
+    padding: 10px;
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+
+/* All order Table style*/
+
+.salesAllOrdersTable {
+    border-collapse: collapse;
+}
+
+.salesAllOrdersTable,
+.salesAllOrdersTable td,
+.salesAllOrdersTable th {
+    padding: 10px;
+    border: 2px solid white;
+    margin-left: 20px;
+    width: 920px;
+    text-align: center;
+}
+
+.salesAllOrdersTable th {
+    background-color: teal;
+    font-size: 15px;
+    color: goldenrod;
+}
